@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Serviços - PetShop</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao PetLoveBrasil</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="conta.html">Conta</a></li>
+        </ul>
+    </nav>
+
+   <!-- Agendamento de Serviços -->
+   <section class="agendamento">
+    <h2>Agendamento de Serviços</h2>
+    <form action="#" method="post">
+        <label for="servico">Selecione um Serviço:</label>
+        <select id="servico" name="servico">
+            <option value="banho-tosa-pequeno">Banho e Tosa para Cães Pequenos</option>
+            <option value="banho-tosa-grande">Banho e Tosa para Cães Grandes</option>
+        </select>
+        <label for="data-hora">Data e Hora do Agendamento:</label>
+        <input type="datetime-local" id="data-hora" name="data-hora" required>
+        <input type="submit" value="Agendar Serviço">
+    </form>
+    </section>
+
+    <section class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servico">
+            <h3>Banho e Tosa para Cães Pequenos</h3>
+            <p>Descrição do serviço para cães pequenos. Lorem ipsum dolor sit amet.</p>
+            <p>Preço: R$ 30,00</p>
+        </div>
+        <div class="servico">
+            <h3>Banho e Tosa para Cães Grandes</h3>
+            <p>Descrição do serviço para cães grandes. Lorem ipsum dolor sit amet.</p>
+            <p>Preço: R$ 40,00</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Contato</h3>
+                <p>Endereço: Rua Pet, 123</p>
+                <p>Telefone: (11) 555-1234</p>
+                <p>Email: contato@meupetshop.com</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2023 PetLoveBrasil</p>
+                <p>Desenvolvido por: Seu Nome</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

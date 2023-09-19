@@ -1,0 +1,131 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Estilos para as seções */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para botões */
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para imagens de produtos */
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para formulários */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="datetime-local"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para mensagens de erro */
+.error-message {
+    color: #f00;
+    margin-top: 5px;
+}
+
+/* Estilos para links de recuperação de senha */
+.login a {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para informações de contato no rodapé */
+.footer-left p {
+    margin: 5px 0;
+}
